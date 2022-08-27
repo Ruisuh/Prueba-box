@@ -1,0 +1,65 @@
+.container {
+    height: 50vh;
+    background-color: white;
+    margin: 5%;
+  }
+  
+  div.cajita, div.cajita2, div.cajita3, div.cajita4 {
+    width: 200px; /*ancho*/
+    height: 250px; /*alto*/
+    padding: 20px;
+    margin-left: 45px;
+    margin-top: 3vh;
+    border-radius: 15%;
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Light", Helvetica, Arial , Verdana, sans-serif;
+  }
+  
+  .silvertext {
+    display: block;
+    width: 220px;
+    margin: 0 auto;
+    padding: 0 auto;
+    position: absolute;
+    margin-top: 150px;
+    text-align: center;
+  }
+  
+  .hiperlinks {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .cajita {
+    background-color: #80cee1;
+    transition: transform .2s; /* Animation */
+  }
+  
+  .cajita2 {
+    background-color: #77dd77;
+    transition: transform .2s; /* Animation */
+  }
+  
+  .cajita3 {
+    background-color: #fdd;
+    transition: transform .2s; /* Animation */
+  }
+  
+  .cajita4 {
+    background-color: #ffb480;
+    transition: transform .2s; /* Animation */
+  }
+  
+  .cajita:hover, .cajita2:hover, .cajita3:hover, .cajita4:hover {
+    animation: zoom-in-zoom-out 1s ease infinite;
+    transform: scale(1.19); 
+    cursor: pointer;
+  }
+  
+  .h1text {
+    text-align: center;
+    display: block;
+  }
